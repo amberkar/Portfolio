@@ -125,47 +125,8 @@ body {
 }
 
 
-/* ESSAYS */
+/* Buttons */
 
-.essays {
-    padding: 4vw;
-    padding-bottom: calc(40px+ 4vw);
-    background-color: #f7f7f7;
-}
-
-.essays h2 {
-    margin-left: -30px;
-}
-
-.essays ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 4vw;
-}
-
-.essays li {
-    width: 350px !important;
-    /* 	padding: 20px; */
-    list-style-type: none !important;
-    margin-right: 2vw;
-    margin-bottom: 4vw;
-    opacity: 0.7;
-    transition: opacity 0.5s ease-out
-}
-
-.essays li:hover {
-    opacity: 1;
-}
-
-.essays a {
-    text-decoration: none;
-}
-
-.essays a:visited {
-    color: black;
-}
 
 .button {
     display: inline-block;
@@ -203,6 +164,8 @@ body {
     background-color: #f7f7f7;
 }
 
+
+
 .section {
     width: 70vw;
     height: 39.32vw;
@@ -231,48 +194,30 @@ ul.work>:nth-child(2) {
     transition: transform 0.5s ease-out, box-shadow 0.5s ease-out;
 }
 
-.video {
-    position: absolute;
-    top: 0;
-    object-fit: cover;
-    width: 100%;
-    z-index: 1;
-}
-
-.facebook-spaces {
+.Lyra {
     background-image: url(../img/plot.jpg);
-    color: #000000;
-
+    background-repeat: no-repeat;
+    background-size:100%;
+    
 }
 
 
-.fb-photos {
+.Centro {
     background-image: url(../img/plot.jpg);
-    color: #000000;
 }
 
-.talk-turkey {
-    background-image: url(../img/plot.jpg);
-    color: #000000;
+.plot {
+    background-image: url(../img/centro.jpg);
 }
 
-.peek {
+.UMMA {
     background-image: url(../img/UMMA.jpg);
-    color: #000000;
+    background-repeat: no-repeat;
+    background-size:100%;
+
 }
 
-
-.facebook-composer {
-    background-image: url(../img/facebook-composer.jpg);
-    color: #000000;
-}
-
-.facebook-pages {
-    background-image: url(../img/plot.jpg);
-    color: #000000;
-}
-
-.facebook-360 {
+.peapod {
     background-image: url(../img/peapod.jpg);
 }
 
@@ -285,7 +230,7 @@ h1 {
     padding: 0px;
     font-family: 'Open Sans';
     font-weight: normal;
-    font-size: 40px;
+    /*font-size: 40px;*/
     text-align: left !important;
     position: absolute;
     margin-top: calc(-15px - 6vw);
@@ -409,7 +354,8 @@ footer a:hover {
         left: -20vw;
         right: auto;
     }
-    ​
+
+
 }
 
 
@@ -457,24 +403,8 @@ footer a:hover {
     .left {
         margin-top: 400px;
     }
-    .essays {
-        padding-bottom: 6vw;
-    }
-    .essays ul {
-        padding-top: 10vw;
-    }
-    .essays li {
-        padding: 0;
-        margin: 0;
-        margin-bottom: 40px;
-        width: 100% !important;
-    }
-    .essays li:nth-child(n+4) {
-        display: none;
-    }
-    .video {
-        display: none;
-    }
+
+
     .section {
         margin-bottom: 5vw;
         margin-top: 5vw;
@@ -498,187 +428,26 @@ footer a:hover {
         left: auto;
         bottom: 0;
     }
-    .video {
-        display: none;
+/* Try Targeting this area to fix cutoff of images on mobile/tablet*/
+    .UMMA {
+        background-position-x: 30%;
     }
-    .automatic {
-        background-position-x: 0;
-    }
-    .peek {
-        background-position-x: 20%;
-    }
-    .talk-turkey {
+    .plot {
         background-position-x: 70%;
     }
-    .fb-photos {
+    .Centro {
         background-position-x: 30%;
         background-image: url(../img/360-photos.jpg);
     }
-    .facebook-360 {
+    .peapod {
         /* 	background-image: url(../img/fb360-mobile.png); */
         background-size: 100% auto;
         background-position: center top;
-        background-color: black;
+
     }
-    .facebook-spaces {
-        background-image: url(../img/fbspaces-mobile.png);
+    .Lyra {
+        /*background-image: url(../img/fbspaces-mobile.png);*/
         background-position: center 10%;
         background-position-x: 10%;
     }
-}
-
-
-/* TIMELINE */
-
-.timeline {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    /*
-	max-width: 960px;
-	margin: 0 auto;
-*/
-}
-
-.timeline> li {
-    /*   overflow: hidden; */
-    margin: 0;
-    position: relative;
-    list-style-type: none;
-    margin-bottom: -6px;
-    display: block;
-    width: 100%;
-}
-
-.timeline-date {
-    width: 30px;
-    float: left;
-    margin-top: 16px;
-    margin-right: 20px;
-    text-align: right;
-}
-
-.timeline-content {
-    border-left: 1px #666 solid;
-    padding-left: 20px;
-    margin-left: 70px;
-    word-wrap: break-word;
-    display: block;
-    padding: 16px 20px 0px 20px;
-}
-
-.timeline-content:before {
-    position: absolute;
-    content: '';
-    width: 9px;
-    height: 9px;
-    border: 1px solid #666;
-    background: #f7f7f7;
-    left: 65px;
-    top: 24px;
-    border-radius: 100%;
-}
-
-.timeline-content p {
-    margin: 0;
-    padding: 0px 0px 10px 0px;
-}
-
-.timeline-content p a {
-    font-style: italic;
-    color: inherit;
-    text-decoration: none;
-}
-
-.timeline-content p a:hover {
-    text-decoration: underline;
-}
-
-ul,
-menu,
-dir {
-    display: block;
-    list-style-type: disc;
-    -webkit-margin-before: 0;
-    -webkit-margin-after: 0;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 40px;
-}
-
-
-}
-
-/*
-.launch:before, .talk:before, .move:before, .award:before, .job:before, .school:before, .music:before {
-  content: '';
-  width: 9px;
-  height: 9px;
-  position: absolute;
-  left: 85px;
-  margin-top: 8px;
-  border-radius: 100%;
-  border: 1px solid #666;
-  background-color: #f7f7f7;
-  z-index: 99;
-  background-size: 9px 9px;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
-.launch:before {
-  background-image: url(../img/launch.png);
-}
-
-.talk:before {
-  background-image: url(../img/talk.png);
-}
-
-.move:before {
-  background-image: url(../img/move.png);
-}
-
-
-.award:before {
-  background-image: url(../img/award.png);
-}
-
-.job:before {
-  background-image: url(../img/job.png);
-}
-
-.school:before {
-  background-image: url(../img/school.png);
-}
-
-
-.music:before {
-}
-*/
-
-/* MUSIC */
-.album {
-    text-align: center;
-    margin: 0 auto;
-    margin: 100px 0;
-    float: left;
-    width: 100%;
-    display: block;
-}
-.leftColumn {
-    width: 50%;
-    text-align: right;
-    margin: 0 auto;
-    float: left;
-}
-.rightColumn {
-    width: 50%;
-    padding-left: 40px;
-    box-sizing: border-box;
-    text-align: left;
-    margin: 0 auto;
-    float: left;
-}
-.rightColumn li {
-    margin: 10px 0;
 }
