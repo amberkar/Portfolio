@@ -321,7 +321,7 @@ footer a:hover {
     }
     .intro {
         background-image: url(../img/profile1.jpg);
-        background-size: 72vh auto;
+        background-size: 110vh auto; /*-------- changes size of headshot --------*/
         background-repeat: no-repeat;
         background-position: 42vw 5vw;
     }
