@@ -26,7 +26,7 @@ body {
     padding: 12px 20px;
     height: 60px;
     overflow: hidden;
-    border-bottom: .18px solid grey;
+    /*border-bottom: .18px solid grey;*/
 }
 
 .header a {
@@ -93,18 +93,18 @@ body {
     /* 	padding-bottom: 4vw;  */
     box-sizing: border-box;
     display: flex;
-    background-color: white;
+    background-color: #f7f7f7;
 
 }
 
-.intro h3{
+.intro,h2{
     font-size: 100px;
-    color: #4B4F56;
+    color:#000000
 
 }
 
-.intro h4{
-    font-size: 18px;
+.intro,h3{
+    font-size: 20px;
     color: #4B4F56;
 }
 
@@ -147,7 +147,7 @@ body {
     margin-top: 10px;
     font-size: 12px;
     padding: 8px 10px;
-    color: inherit;
+    color: black;
     border: 1px solid black;
     border-radius: 4px;
     text-transform: uppercase;
@@ -194,8 +194,13 @@ body {
   justify-content: center;
   flex-direction: column;
   padding: 4vw;
-  background-color: #f3f3f3;*/
+  background-color: #f3f3f3;
 
+}
+
+p {
+    font-size: 20px;
+    color: #4B4F56;
 }
 
 .ps h2,h3 {
@@ -204,16 +209,23 @@ body {
 }
 
 .insight-block {
-  border-left: 5px solid #3186d2;
-  /*margin-left: 15%;*/
+  /*border-left: 5px solid #3186d2;*/
+  padding-left: 5%;
 }
 
 .insight-block,h1 {
   font-size: 24px;
-  margin-bottom: -.5%;
+  color: #3186d2;
+  margin-bottom: -1%;
+  text-transform:uppercase;
+  /*padding-top:3%;*/
 }
+
 .micro{
-  font-size: 18px;
+  font-size: 20px;
+  color:#4B4F56;
+  text-transform:none;
+  /*padding-bottom:3%;*/
 }
 .black-block{
   width: 100vw;
@@ -231,10 +243,6 @@ body {
 }
 
 
-
-/*.ps h3 {
-  font-size: 32px
-}*/
 
 
 /* WORK */
@@ -276,31 +284,6 @@ ul.work>:nth-child(2) {
     transition: transform 0.5s ease-out, box-shadow 0.5s ease-out;
 }
 
-.Lyra {
-    background-image: url(../img/Lyra.jpg);
-
-
-}
-
-
-.Centro {
-    background-image: url(../img/centro.jpg);
-}
-
-.plot {
-    background-image: url(../img/plot.jpg);
-}
-
-.UMMA {
-    background-image: url(../img/UMMA.jpg);
-}
-
-.peapod {
-    background-image: url(../img/peapod.jpg);
-}
-
-/* TYPOGRAPHY */
-
 
 
 /* FOOTER */
@@ -312,7 +295,7 @@ footer {
 }
 
 footer p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 footer a,
@@ -343,15 +326,6 @@ footer a:hover {
         /*     max-width: 570px; */
     }
 
-    /*.left {
-      padding-top: 15px;
-      padding-bottom: 15px;
-    }*/
-
-    .bigpic {
-
-      /*z-index: 0;*/
-    }
 
     .left {
         padding: 12vw;
@@ -361,24 +335,6 @@ footer a:hover {
     .section-active {
         transform: scale(0.98);
         box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.1);
-    }
-    li.section:nth-child(odd) {
-        right: -25%;
-    }
-    .description {
-        width: 50vw;
-        max-width: 500px;
-        position: absolute;
-        right: -20vw;
-        padding: 40px;
-    }
-    .description:hover {
-        transform: scale(1.1);
-        box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
-    }
-    li.section:nth-child(odd) .description {
-        left: -20vw;
-        right: auto;
     }
 
 
@@ -395,7 +351,9 @@ footer a:hover {
       padding: 4vw;*/
 
     }
-
+.video {
+  object-fit: cover;
+}
 
 }
 
@@ -451,9 +409,7 @@ footer a:hover {
         overflow: hidden;
         height: calc(300px+ 20vw);
     }
-    .description {
-        background-color: white;
-    }
+
     li.section {
         width: 100%;
         margin-left: 0;
@@ -468,30 +424,3 @@ footer a:hover {
         left: auto;
         bottom: 0;
     }
-/* Try Targeting this area to fix cutoff of images on mobile/tablet*/
-    .UMMA {
-        background-position-x: 40%;
-    }
-    .plot {
-        background-position-x: 40%;
-    }
-    .Centro {
-        background-position-x: 30%;
-        /*background-image: url(../img/360-photos.jpg);*/
-    }
-    .peapod {
-        /* 	background-image: url(../img/fb360-mobile.png); */
-        /*background-position-x: 30%;*/
-        background-position-x: 30%;
-        /*background-size: 100%;*/
-        /*padding-bottom: 0;*/
-        /*background-position: center top;*/
-
-    }
-    .Lyra {
-        /*background-image: url(../img/fbspaces-mobile.png);*/
-        /*background-position: center 10%;*/
-        background-position-x: 35%;
-    }
-    .UMMA, .plot, .Centro, .peapod, .Lyra { min-height: 450px; }
-}
