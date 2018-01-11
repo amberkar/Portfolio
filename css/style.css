@@ -26,6 +26,7 @@ body {
     padding: 12px 20px;
     height: 60px;
     overflow: hidden;
+    /*border-bottom: .18px solid grey;*/
 }
 
 .header a {
@@ -46,7 +47,7 @@ body {
 
 }
 
-.header.follow a:hover {
+.header.resume a:hover {
     color: #000000;
 
 }
@@ -75,7 +76,7 @@ body {
     opacity: 1;
 }
 
-.twitter {
+.resume {
     padding: 8px 10px;
     margin-top: 0px !important;
     margin-right: 0px !important;
@@ -92,7 +93,7 @@ body {
     /* 	padding-bottom: 4vw;  */
     box-sizing: border-box;
     display: flex;
-    background-color: white;
+    background-color: #f3f3f3;
 }
 
 .left,
@@ -100,6 +101,7 @@ body {
     padding: 4vw;
     margin-top: 20px;
     box-sizing: border-box;
+
 }
 
 .right {
@@ -156,12 +158,17 @@ body {
 
 /* WORK */
 
+.work h1 {
+  margin-top:.1%;
+  font-size: 3.5vw;
+}
+
 .work {
     -webkit-padding-start: 0;
     list-style-type: none !important;
     padding: 4vw;
     margin: 0 auto;
-    background-color: #f7f7f7;
+
 }
 
 
@@ -180,7 +187,7 @@ body {
 }
 
 ul.work>:nth-child(2) {
-    margin-top: 5vw;
+    margin-top: 15vw;
 }
 
 .description {
@@ -214,7 +221,7 @@ ul.work>:nth-child(2) {
 }
 
 .peapod {
-    background-image: url(../img/peapod.jpg);
+    background-image: url(../img/peapod.png);
 }
 
 /* TYPOGRAPHY */
@@ -294,12 +301,12 @@ p {
 
 footer {
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     /*opacity: .5;*/
 }
 
 footer p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 footer a,
@@ -310,6 +317,7 @@ footer a:visited {
 
 footer a:hover {
     text-decoration: underline;
+    color: #3186d2;
 }
 
 
@@ -320,10 +328,11 @@ footer a:hover {
         display: none;
     }
     .intro {
-        background-image: url(../img/profile1.jpg);
+        background-image: url(../img/profile1.png);
         background-size: 110vh auto; /*-------- changes size of headshot --------*/
         background-repeat: no-repeat;
         background-position: 42vw 5vw;
+        background-color: #f3f3f3;
     }
     .intro p {
         /*     max-width: 570px; */
@@ -394,7 +403,7 @@ footer a:hover {
         /* 	display: none; */
         height: 400px;
         position: absolute;
-        background-image: url(../img/profile1.jpg);
+        background-image: url(../img/profile1.png);
         background-size: cover;
         background-position: center center;
     }
@@ -425,6 +434,10 @@ footer a:hover {
         right: 0;
         left: auto;
         bottom: 0;
+    }
+
+    .work h1 {
+      font-size: 10vw;
     }
 /* Try Targeting this area to fix cutoff of images on mobile/tablet*/
     .UMMA {
