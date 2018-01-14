@@ -244,6 +244,15 @@ p {
     max-height: 200px;
 }
 
+.row3 {
+  position:relative;
+  display: inline-block;
+}
+
+.gallery3{
+  max-width: 47.5%;
+  padding: 1%;
+}
 
 
 
