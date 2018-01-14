@@ -182,15 +182,28 @@ body {
   margin-left: -50vw;
   margin-right: -50vw;
 }
+.row1 {
+  position:relative;
+  display: inline-block;
+}
 
+.gallery{
+  max-width: 40%;
+  padding: 1%;
+}
+
+.row2 {
+  position: relative;
+  display: inline-block;
+  /*margin-left: -20vw;
+  margin-right: -22vw;*/
+}
+.gallery2{
+  max-width: 47%;
+  padding: 1%;
+}
 /* SECTION1 */
 .ps {
-  /*width: 40%;*/
-  /*display: flex;*/
-  /*padding-right:20%;
-  padding-left: 20%;
-  padding-top: 10%;
-  padding-bottom: 10%;*/
   justify-content: center;
   flex-direction: column;
   padding: 4vw;
@@ -209,7 +222,6 @@ p {
 }
 
 .insight-block {
-  /*border-left: 5px solid #3186d2;*/
   padding-left: 5%;
 }
 
