@@ -182,12 +182,12 @@ body {
   margin-left: -50vw;
   margin-right: -50vw;
 }
-.row1 {
+.row3 {
   position:relative;
   display: inline-block;
 }
 
-.gallery{
+.gallery3{
   max-width: 40%;
   padding: 1%;
 }
