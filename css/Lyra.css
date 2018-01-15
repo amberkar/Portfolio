@@ -181,7 +181,21 @@ body {
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
+
 }
+
+.row1 {
+  position:relative;
+  display: inline-block;
+  margin-left: -15vw;
+  margin-right: -20vw;
+}
+
+.gallery1{
+  max-width: 45%;
+  padding: 1%;
+}
+
 .row3 {
   position:relative;
   display: inline-block;
@@ -226,7 +240,7 @@ p {
 }
 
 .insight-block,h1 {
-  font-size: 24px;
+  font-size: 20px;
   color: #3186d2;
   margin-bottom: -1%;
   text-transform:uppercase;
