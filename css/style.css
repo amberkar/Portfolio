@@ -4,7 +4,6 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", SF UI Text, Roboto, "Helvetica Neue", Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    /* 	background-color: #f3f3f3; */
     font-weight: normal;
     font-style: normal;
 }
@@ -26,7 +25,6 @@ body {
     padding: 12px 20px;
     height: 60px;
     overflow: hidden;
-    /*border-bottom: .18px solid grey;*/
 }
 
 .header a {
@@ -43,7 +41,7 @@ body {
 }
 
 .header a:hover {
-    color: #3186d2;
+    color: #4080FF;
 
 }
 
@@ -59,23 +57,20 @@ body {
     font-weight: 400;
     font-size: calc(12px+ .1vw);
     letter-spacing: 1px;
-    /*opacity: .7;*/
     display: inline-block;
     text-transform: uppercase;
     font-family: "Open Sans";
 }
 
 .contact a {
-    /* 	width: 50px; */
     text-align: center;
     margin: 10px 10px 0px 20px;
 }
 
 .contact a:hover {
-    /* 	font-weight: bold; */
     opacity: 1;
     color: #4B4F56;
-    box-shadow: 0px 3px #3186d2;
+    box-shadow: 0px 3px #4080FF;
     padding-bottom: 10px;
 
 }
@@ -85,7 +80,6 @@ body {
     margin-top: 0px !important;
     margin-right: 0px !important;
 }
-
 
 
 
@@ -100,20 +94,15 @@ body {
     background-color: #f3f3f3;
 }
 
-.left,
-.right {
+.left{
     padding: 4vw;
     margin-top: 20px;
     box-sizing: border-box;
 
 }
 
-.right {
-    width: 43%;
-}
-
 .left {
-    width: 57%;
+    /*width: 57%;*/
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -152,7 +141,7 @@ body {
 
 .button:hover {
     opacity: 1;
-    background-color: #3186d2;
+    background-color: #4080FF;
     color: white;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
     border: 1px solid white;
@@ -162,9 +151,8 @@ body {
 
 /* WORK */
 
-.work h1 {
-  margin-top:.1%;
-  font-size: 3.5vw;
+.heading1,p {
+  margin-bottom: -10%;
 }
 
 .work {
@@ -174,7 +162,6 @@ body {
     margin: 0 auto;
 
 }
-
 
 
 .section {
@@ -300,6 +287,13 @@ p {
     font-weight: 300;
 }
 
+.card-circle {
+    height: 48px;
+    width: 48px;
+    border-radius: 100px;
+    background-color: white;
+    margin-bottom: 12px;
+}
 
 /* FOOTER */
 
@@ -321,7 +315,7 @@ footer a:visited {
 
 footer a:hover {
     text-decoration: underline;
-    color: #3186d2;
+    color: #4080FF;
 }
 
 
@@ -332,15 +326,24 @@ footer a:hover {
         display: none;
     }
     .intro {
-        background-image: url(../img/profile1.png);
-        background-size: 110vh auto; /*-------- changes size of headshot --------*/
-        background-repeat: no-repeat;
-        background-position: 42vw 5vw;
         background-color: #f3f3f3;
+        padding-left: 22%;
+        padding-right: 22%;
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
     .intro p {
+      font-size: 24px;
         /*     max-width: 570px; */
     }
+    .card-circle {
+      position: relative;
+      margin-left: 450px;
+      margin-bottom: -100px;
+    }
+
+
+
     .section-active {
         transform: scale(0.98);
         box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.1);
@@ -371,11 +374,11 @@ footer a:hover {
 /*-------- DESKTOP -XL -------*/
 
 @media only screen and (min-width: 960px) {
-    .intro {
+    /*.intro {
         background-position: 50vw 5vw;
-    }
+    }*/
 
-    .right { min-height: 600px; }
+    /*.right { min-height: 600px; }*/
 }
 
 
@@ -400,20 +403,8 @@ footer a:hover {
     h3 {
         margin-top: 60px;
     }
-    .left,
-    .right {
+    .left{
         width: 100%;
-    }
-    .right {
-        /* 	display: none; */
-        height: 400px;
-        position: absolute;
-        background-image: url(../img/profile1.png);
-        background-size: cover;
-        background-position: center center;
-    }
-    .left {
-        margin-top: 400px;
     }
 
 
