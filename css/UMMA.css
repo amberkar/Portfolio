@@ -16,6 +16,7 @@ body {
 
 /* HEADER */
 
+
 .header {
     position: fixed;
     width: 100%;
@@ -26,7 +27,6 @@ body {
     padding: 12px 20px;
     height: 60px;
     overflow: hidden;
-    /*border-bottom: .18px solid grey;*/
 }
 
 .header a {
@@ -43,11 +43,11 @@ body {
 }
 
 .header a:hover {
-    color: #3186d2;
+    color: #4080FF;
 
 }
 
-.header.follow a:hover {
+.header.resume a:hover {
     color: #000000;
 
 }
@@ -59,32 +59,29 @@ body {
     font-weight: 400;
     font-size: calc(12px+ .1vw);
     letter-spacing: 1px;
-    /*opacity: .7;*/
     display: inline-block;
     text-transform: uppercase;
     font-family: "Open Sans";
 }
 
 .contact a {
-    /* 	width: 50px; */
     text-align: center;
     margin: 10px 10px 0px 20px;
 }
 
 .contact a:hover {
-    /* 	font-weight: bold; */
     opacity: 1;
+    color: #4B4F56;
+    box-shadow: 0px 3px #4080FF;
+    padding-bottom: 10px;
+
 }
 
-.twitter {
+.resume {
     padding: 8px 10px;
     margin-top: 0px !important;
     margin-right: 0px !important;
 }
-
-
-
-
 
 /* INTRO */
 
@@ -431,14 +428,19 @@ footer a:hover {
         /* 	display: none; */
         height: 400px;
         position: absolute;
-        background-image: url(../img/lyraproduct.png);
+        background-image: url(../img/UMMA2.png);
         background-size: cover;
         background-position: center center;
     }
     .left {
         margin-top: 400px;
     }
-
+    .black-block,.ps2 {
+      padding-right:5%;
+      padding-left: 2%;
+      padding-top: 5%;
+      padding-bottom: 5%;
+    }
 
     .section {
         margin-bottom: 5vw;
