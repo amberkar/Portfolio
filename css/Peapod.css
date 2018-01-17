@@ -4,7 +4,6 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", SF UI Text, Roboto, "Helvetica Neue", Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    /* 	background-color: #f3f3f3; */
     font-weight: normal;
     font-style: normal;
 }
@@ -43,7 +42,7 @@ body {
 }
 
 .header a:hover {
-    color: #4080FF;
+    color: #3186d2;
 
 }
 
@@ -72,7 +71,7 @@ body {
 .contact a:hover {
     opacity: 1;
     color: #4B4F56;
-    box-shadow: 0px 3px #4080FF;
+    box-shadow: 0px 3px #3186d2;
     padding-bottom: 10px;
 
 }
@@ -158,7 +157,7 @@ body {
 
 .button:hover {
     opacity: 1;
-    background-color: #4080FF;
+    background-color: #3186d2;
     color: white;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
     border: 1px solid white;
@@ -193,7 +192,7 @@ body {
   justify-content: center;
   flex-direction: column;
   padding: 4vw;
-  background-color: #f3f3f3;
+  background-color:#F9F9F9;
 
 }
 
@@ -213,7 +212,7 @@ p {
 
 .insight-block,h1 {
   font-size: 24px;
-  color: #4080FF;
+  color: #3186d2;
   margin-bottom: -1%;
   text-transform:uppercase;
   /*padding-top:3%;*/
@@ -285,14 +284,33 @@ ul.work>:nth-child(2) {
 	height: 100%;
 }
 
+.bottomnavlinks a {
+    margin-top: 30px;
+    color: #4B4F56;
+    font-size: 20px;
+    font-weight: 400;
+    border-bottom-style: none;
+    text-decoration: none;
+}
 
+.bottomnavlinksleft a {
+    float: left;
+}
+
+.bottomnavlinksright a {
+    float: right;
+}
+
+.bottomnavlinks a:hover {
+    text-decoration: underline;
+    color:#3186d2;
+}
 
 /* FOOTER */
 
 footer {
     text-align: center;
-    padding: 20px;
-    /*opacity: .5;*/
+    padding: 100px;
 }
 
 footer p {
@@ -307,6 +325,7 @@ footer a:visited {
 
 footer a:hover {
     text-decoration: underline;
+    color: #3186d2;
 }
 
 

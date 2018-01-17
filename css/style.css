@@ -41,7 +41,7 @@ body {
 }
 
 .header a:hover {
-    color: #4080FF;
+    color: #3186d2;
 
 }
 
@@ -70,7 +70,7 @@ body {
 .contact a:hover {
     opacity: 1;
     color: #4B4F56;
-    box-shadow: 0px 3px #4080FF;
+    box-shadow: 0px 3px #3186d2;
     padding-bottom: 10px;
 
 }
@@ -91,7 +91,7 @@ body {
     /* 	padding-bottom: 4vw;  */
     box-sizing: border-box;
     display: flex;
-    background-color: #f3f3f3;
+    background-color: #F9F9F9;
 }
 
 .left{
@@ -141,7 +141,7 @@ body {
 
 .button:hover {
     opacity: 1;
-    background-color: #4080FF;
+    background-color: #3186d2;
     color: white;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
     border: 1px solid white;
@@ -160,6 +160,7 @@ body {
     list-style-type: none !important;
     padding: 4vw;
     margin: 0 auto;
+    background-color: #F9F9F9;
 
 }
 
@@ -315,7 +316,7 @@ footer a:visited {
 
 footer a:hover {
     text-decoration: underline;
-    color: #4080FF;
+    color: #3186d2;
 }
 
 
@@ -326,7 +327,7 @@ footer a:hover {
         display: none;
     }
     .intro {
-        background-color: #f3f3f3;
+        background-color: #F9F9F9;
         padding-left: 22%;
         padding-right: 22%;
         padding-top: 10%;
