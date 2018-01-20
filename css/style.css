@@ -151,8 +151,13 @@ body {
 
 /* WORK */
 
-.heading1,p {
+.heading1 p {
   margin-bottom: -10%;
+  font-size: 26px;
+}
+
+.heading1 h2 {
+  font-size: 40px;
 }
 
 .work {
@@ -398,8 +403,13 @@ footer a:hover {
         margin: 10px 0px;
         padding: 0;
         font-size: 16px;
-        line-height: 20px;
+        line-height: 18px;
         font-weight: 300;
+    }
+
+    .left p {
+      font-size: 18px;
+      line-height: 20px;
     }
     h3 {
         margin-top: 60px;
@@ -407,7 +417,23 @@ footer a:hover {
     .left{
         width: 100%;
     }
+    .left h2{
+        font-size:30px;
+    }
+    .left h3{
+        font-size:22px;
+        margin-bottom: 2;
+    }
 
+    .heading1 p {
+      margin-bottom:5%;
+      font-size: 18px;
+    }
+
+    .heading1 h2 {
+      font-size: 22px;
+      margin-top: -8%;
+    }
 
     .section {
         margin-bottom: 5vw;
