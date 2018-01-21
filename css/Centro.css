@@ -88,12 +88,9 @@ body {
 .intro {
     width: 100%;
     min-height: 75vh;
-    /* 	padding-bottom: 4vw;  */
     box-sizing: border-box;
     display: flex;
     background-color: #f7f7f7;
-
-
 }
 
 .intro,h2{
@@ -202,7 +199,6 @@ p {
 }
 
 .insight-block {
-  /*border-left: 5px solid #3186d2;*/
   padding-left: 5%;
 }
 
@@ -211,14 +207,12 @@ p {
   color: #3186d2;
   margin-bottom: -1%;
   text-transform:uppercase;
-  /*padding-top:3%;*/
 }
 
 .micro{
   font-size: 20px;
   color:#4B4F56;
   text-transform:none;
-  /*padding-bottom:3%;*/
 }
 .black-block{
   width: 100vw;
@@ -228,8 +222,6 @@ p {
   margin-left: -50vw;
   margin-right: -50vw;
 }
-
-
 
 .gallery-tiles {
     display: inline-block;
@@ -243,8 +235,9 @@ p {
 }
 
 .gallery{
-  max-width: 40%;
+  max-width: 47%;
   padding: 1%;
+  padding-top: 2%;
 }
 
 .findings{
@@ -262,39 +255,9 @@ p {
     background-color: #f7f7f7;
 }
 
-
-
-.section {
-    width: 70vw;
-    height: 39.32vw;
-    margin: 20vw 0;
-    position: relative;
-    box-sizing: border-box;
-    box-shadow: 0px 20px 80px 0px rgba(0, 0, 0, 0.05);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center top;
-    transition: transform 0.5s ease-out, box-shadow 0.5s ease-out;
-}
-
-ul.work>:nth-child(2) {
-    margin-top: 5vw;
-}
-
-.description {
-    width: 100%;
-    box-sizing: border-box;
-    position: absolute;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.93);
-    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.05);
-    z-index: 2;
-    transition: transform 0.5s ease-out, box-shadow 0.5s ease-out;
-}
-
 .video {
 	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
+	padding-bottom: 56.25%;
 	padding-top: 25px;
 	height: 0;
 }
@@ -364,15 +327,9 @@ footer a:hover {
         background-position: 42vw 2vw;
     }
 
-    .intro p {
-        /*     max-width: 570px; */
-    }
-
 
     .left {
         padding: 12vw;
-        /*margin-top: 20px;*/
-        /*box-sizing: border-box;*/
     }
     .section-active {
         transform: scale(0.98);
@@ -382,34 +339,20 @@ footer a:hover {
 
 
     .ps {
-      /*width: 40%;*/
-      /*display: flex;*/
       padding-right:20%;
       padding-left: 20%;
       padding-top: 10%;
       padding-bottom: 10%;
-      /*justify-content: center;
-      flex-direction: column;
-      padding: 4vw;*/
-
     }
 
 
-.ps2 {
-  /*width: 40%;*/
-  /*display: flex;*/
-  padding-right:20%;
-  padding-left: 20%;
-  padding-top: 10%;
-  padding-bottom: 10%;
-  /*justify-content: center;
-  flex-direction: column;
-  padding: 4vw;*/
-
+    .ps2 {
+      padding-right:20%;
+      padding-left: 20%;
+      padding-top: 10%;
+      padding-bottom: 10%;
+    }
 }
-
-}
-
 
 /*-------- DESKTOP -XL -------*/
 
@@ -444,7 +387,6 @@ footer a:hover {
         width: 100%;
     }
     .right {
-        /* 	display: none; */
         height: 400px;
         position: absolute;
         background-image: url(../img/centro2.png);
@@ -463,32 +405,19 @@ footer a:hover {
       margin-bottom:-1%;
     }
 
+    .ps h2 {
+      font-size: 28px;
+      font-weight: 400;
+    }
+
+    .gallery{
+      max-width: 90%;
+      padding-left: 5%;
+    }
+
     .black-block,.ps2 {
       padding-right:5%;
       padding-left: 2%;
       padding-top: 5%;
       padding-bottom: 5%;
-    }
-
-
-    .section {
-        margin-bottom: 5vw;
-        margin-top: 5vw;
-        overflow: hidden;
-        height: calc(300px+ 20vw);
-    }
-
-    li.section {
-        width: 100%;
-        margin-left: 0;
-    }
-    li.section .description {
-        left: 0;
-        right: auto;
-        bottom: 0;
-    }
-    ​ li.section:nth-child(even) .description {
-        right: 0;
-        left: auto;
-        bottom: 0;
     }
