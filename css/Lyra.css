@@ -25,7 +25,6 @@ body {
     padding: 12px 20px;
     height: 60px;
     overflow: hidden;
-    /*border-bottom: .18px solid grey;*/
 }
 
 .header a {
@@ -208,12 +207,11 @@ body {
 .row2 {
   position: relative;
   display: inline-block;
-  /*margin-left: -20vw;
-  margin-right: -22vw;*/
 }
 .gallery2{
   max-width: 47%;
   padding: 1%;
+  padding-top: 5%;
 }
 /* SECTION1 */
 .ps {
@@ -244,14 +242,12 @@ p {
   color: #3186d2;
   margin-bottom: -1%;
   text-transform:uppercase;
-  /*padding-top:3%;*/
 }
 
 .micro{
   font-size: 20px;
   color:#4B4F56;
   text-transform:none;
-  /*padding-bottom:3%;*/
 }
 .black-block{
   width: 100vw;
@@ -262,16 +258,11 @@ p {
   margin-right: -50vw;
 }
 
-
-
 .gallery-tiles {
     display: inline-block;
     max-width: 175px;
     max-height: 200px;
 }
-
-
-
 
 /* WORK */
 .work {
@@ -281,8 +272,6 @@ p {
     margin: 0 auto;
     background-color: #f7f7f7;
 }
-
-
 
 .section {
     width: 70vw;
@@ -314,7 +303,7 @@ ul.work>:nth-child(2) {
 
 .video {
 	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
+	padding-bottom: 56.25%;
 	height: 0;
 }
 .video iframe {
@@ -383,15 +372,9 @@ footer a:hover {
         background-position: 42vw 2vw;
     }
 
-    .intro p {
-        /*     max-width: 570px; */
-    }
-
 
     .left {
         padding: 12vw;
-        /*margin-top: 20px;*/
-        /*box-sizing: border-box;*/
     }
     .section-active {
         transform: scale(0.98);
@@ -399,36 +382,20 @@ footer a:hover {
     }
 
 
-
     .ps {
-      /*width: 40%;*/
-      /*display: flex;*/
       padding-right:20%;
       padding-left: 20%;
       padding-top: 10%;
       padding-bottom: 10%;
-      /*justify-content: center;
-      flex-direction: column;
-      padding: 4vw;*/
-
     }
 
-
-.ps2 {
-  /*width: 40%;*/
-  /*display: flex;*/
-  padding-right:20%;
-  padding-left: 20%;
-  padding-top: 10%;
-  padding-bottom: 10%;
-  /*justify-content: center;
-  flex-direction: column;
-  padding: 4vw;*/
-
-}
-
-}
-
+    .ps2 {
+      padding-right:20%;
+      padding-left: 20%;
+      padding-top: 10%;
+      padding-bottom: 10%;
+    }
+  }
 
 /*-------- DESKTOP -XL -------*/
 
@@ -489,6 +456,11 @@ footer a:hover {
       padding-left: 13%;
     }
 
+    .ps h2 {
+      font-size: 28px;
+      font-weight: 400;
+    }
+
     .black-block,.ps2 {
       padding-right:5%;
       padding-left: 2%;
@@ -501,19 +473,4 @@ footer a:hover {
         margin-top: 5vw;
         overflow: hidden;
         height: calc(300px+ 20vw);
-    }
-
-    li.section {
-        width: 100%;
-        margin-left: 0;
-    }
-    li.section .description {
-        left: 0;
-        right: auto;
-        bottom: 0;
-    }
-    ​ li.section:nth-child(even) .description {
-        right: 0;
-        left: auto;
-        bottom: 0;
     }
