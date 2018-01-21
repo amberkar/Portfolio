@@ -50,7 +50,6 @@ body {
 
 }
 
-
 .contact,
 .contact a {
     float: right;
@@ -88,7 +87,6 @@ body {
 .intro {
     width: 100%;
     min-height: 75vh;
-    /* 	padding-bottom: 4vw;  */
     box-sizing: border-box;
     display: flex;
     background-color: #F9F9F9;
@@ -102,7 +100,6 @@ body {
 }
 
 .left {
-    /*width: 57%;*/
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -169,7 +166,6 @@ body {
 
 }
 
-
 .section {
     width: 70vw;
     height: 39.32vw;
@@ -200,8 +196,6 @@ ul.work>:nth-child(2) {
 
 .Lyra {
     background-image: url(../img/Lyra.jpg);
-
-
 }
 
 
@@ -268,7 +262,6 @@ h5 {
     margin: 0;
     font-family: 'Open Sans';
     font-size: calc(16px+ .3vw);
-    /* 	font-style: italic; */
     font-weight: 300;
     opacity: .7;
     margin-top: 10px;
@@ -306,7 +299,6 @@ p {
 footer {
     text-align: center;
     padding: 10px 0;
-    /*opacity: .5;*/
 }
 
 footer p {
@@ -340,15 +332,12 @@ footer a:hover {
     }
     .intro p {
       font-size: 24px;
-        /*     max-width: 570px; */
     }
     .card-circle {
       position: relative;
       margin-left: 450px;
       margin-bottom: -100px;
     }
-
-
 
     .section-active {
         transform: scale(0.98);
@@ -372,7 +361,6 @@ footer a:hover {
         left: -20vw;
         right: auto;
     }
-
 
 }
 
@@ -409,7 +397,7 @@ footer a:hover {
 
     .left p {
       font-size: 18px;
-      line-height: 20px;
+      line-height: 22px;
     }
     h3 {
         margin-top: 60px;
