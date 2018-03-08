@@ -68,15 +68,17 @@ body {
 
 .contact a:hover {
     opacity: 1;
+    color: #4B4F56;
+    box-shadow: 0px 3px #3186d2;
+    padding-bottom: 10px;
+
 }
 
-.twitter {
+.resume {
     padding: 8px 10px;
     margin-top: 0px !important;
     margin-right: 0px !important;
 }
-
-
 
 
 /* INTRO */
@@ -119,15 +121,34 @@ body {
     flex-direction: column;
 }
 
-  .left h2{
-      font-size: 40;
-      font-family: 'Open Sans';
+.left h2{
+    font-size: 50;
+    font-family: 'Open Sans';
+    margin-bottom: 2%;
+    /*margin-top: 10px;*/
 }
 
-  .left h3{
-      font-size: 30;
-      font-family: 'Open Sans';
-      color: #90949C;
+.left h3{
+    font-size: 24;
+    font-family: 'Open Sans';
+    margin-top: -2%;
+    font-weight: 300;
+    /*color: #90949C;*/
+}
+
+.left h4{
+  font-size: 16;
+  font-family: 'Open Sans';
+  margin-top: -3%;
+  font-weight: 300;
+  /*color: #90949C;*/
+}
+.left h5{
+  font-size: 16;
+  font-family: 'Open Sans';
+  margin-top: -7%;
+  font-weight: 700;
+  /*color: #90949C;*/
 }
 
 
