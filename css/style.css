@@ -94,7 +94,7 @@ body {
 
 .left{
     padding: 4vw;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     box-sizing: border-box;
 
 }
@@ -114,6 +114,10 @@ body {
     font-size: 30;
     font-family: 'Open Sans';
     color: #90949C;
+}
+
+.left p{
+  line-height: 30px;
 }
 
 
@@ -402,7 +406,9 @@ footer a:hover {
     h3 {
         margin-top: 60px;
     }
+
     .left{
+        margin-top: 20px;
         width: 100%;
     }
     .left h2{
